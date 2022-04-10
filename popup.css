@@ -1,0 +1,52 @@
+
+  
+  
+  #success{
+      
+  }
+  
+  #failure{
+    background:#ff3939;
+    color:#f0f0f0;  
+  }
+  
+  .notify{  
+    position:fixed;
+    top:0px;
+    background-image: url('/images/f01.jpg');
+    background-size: cover;
+    /* background-color: black; */
+    width:100%;
+    background-position: top center;
+    height:0;  
+    box-sizing:border-box;
+    text-align:center;
+    /* background:rgba(0,0,0); */
+    overflow:hidden;
+    box-sizing:border-box;
+    transition:height .2s;
+    z-index: 10000000;
+  }
+  
+  #notifyType:before{
+    display:block;
+    margin-top:15px; 
+    
+  }
+  
+  .active{  
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .success:before{
+
+
+  }
+  
+  .failure:before{
+    Content:"Oh no! Something didn't go as planned :(";
+  }

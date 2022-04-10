@@ -1,0 +1,968 @@
+ 
+  
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+  .gameplay-section-card__text{
+    text-align: left;
+    margin-top: 3px;
+}
+
+
+  .Management_{
+      color: white;
+      font-weight: 800;
+      font-family: "Chakra Petch", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+  }
+  
+  
+  .snipcss-WNVkG {  
+        color:rgb(255, 255, 255);
+      }  
+    * { 
+        -webkit-box-sizing: inherit; 
+        -moz-box-sizing: inherit; 
+        box-sizing: inherit;
+    } 
+    
+    * { 
+        background-repeat: no-repeat; 
+        padding: 0; 
+        margin: 0; 
+        background-repeat-x: no-repeat; 
+        background-repeat-y: no-repeat; 
+        padding-top: 0px; 
+        padding-right: 0px; 
+        padding-bottom: 0px; 
+        padding-left: 0px; 
+        margin-top: 0px; 
+        margin-right: 0px; 
+        margin-bottom: 0px; 
+        margin-left: 0px;
+    } 
+    
+    main { 
+        display: block;
+    } 
+    
+    .application { 
+        min-height: 100vh; 
+        display: flex; 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+        -webkit-flex-direction: column; 
+        -moz-box-orient: vertical; 
+        -moz-box-direction: normal; 
+        -ms-flex-direction: column; 
+        flex-direction: column;
+    } 
+    
+    .application { 
+        position: relative;
+    } 
+    
+    body { 
+        max-width: 100%; 
+        width: 100%; 
+        font-family: "Chakra Petch", sans-serif;
+    } 
+    
+    body { 
+        min-height: 100vh; 
+        display: flex; 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+        -webkit-flex-direction: column; 
+        -moz-box-orient: vertical; 
+        -moz-box-direction: normal; 
+        -ms-flex-direction: column; 
+        flex-direction: column;
+        font-family: "Chakra Petch", sans-serif;
+    } 
+    
+    html { 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box; 
+        -webkit-text-size-adjust: 100%; 
+        text-size-adjust: 100%;
+        font-family: "Chakra Petch", sans-serif;
+    } 
+    
+    html { 
+        text-rendering: optimizelegibility; 
+        font-size: 16px; 
+        color: rgb(255, 255, 255); 
+        background: #000; 
+        -webkit-font-smoothing: antialiased; 
+        -moz-osx-font-smoothing: grayscale; 
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+        -webkit-overflow-scrolling: touch; 
+        background-image: initial; 
+        background-position-x: initial; 
+        background-position-y: initial; 
+        background-size: initial; 
+        background-repeat-x: initial; 
+        background-repeat-y: initial; 
+        background-attachment: initial; 
+        background-origin: initial; 
+        background-clip: initial; 
+        background-color: rgb(0, 0, 0);
+    } 
+    
+    section { 
+        display: block;
+    } 
+    
+    .app-section { 
+        padding-top: 150px; 
+        padding-bottom: 110px; 
+        position: relative; 
+        z-index: 1; 
+        min-height: calc(100vh + 20px); 
+        max-height: 100%; 
+        margin-top: -20px; 
+    } 
+    
+    .team-management-section { 
+        background: url(https://project-hive.io/_nuxt/img/088a4fb.jpg) bottom no-repeat; 
+        background-position-y: calc(100% + 120px); 
+        overflow: hidden; 
+        background-image: url("https://project-hive.io/_nuxt/img/088a4fb.jpg"); 
+        background-position-x: center; 
+        background-size: initial; 
+        background-repeat-x: no-repeat; 
+        background-repeat-y: no-repeat; 
+        background-attachment: initial; 
+        background-origin: initial; 
+        background-clip: initial; 
+        background-color: initial; 
+        overflow-x: hidden; 
+        overflow-y: hidden;
+    } 
+    
+    *,:after,:before { 
+        -webkit-box-sizing: inherit; 
+        -moz-box-sizing: inherit; 
+        box-sizing: inherit;
+    } 
+    
+    :after,:before { 
+        text-decoration: inherit; 
+        vertical-align: inherit; 
+        text-decoration-line: inherit; 
+        text-decoration-thickness: inherit; 
+        text-decoration-style: inherit; 
+        text-decoration-color: inherit;
+    } 
+    
+    :selection { 
+        background-color: rgb(179, 212, 252); 
+        color: rgb(0, 0, 0); 
+        text-shadow: none;
+    } 
+    
+    .app-section-ornament-left-trapeze { 
+        position: absolute; 
+        left: 0px; 
+        bottom: 180px; 
+        border-right: 1px solid #55857d; 
+        height: 550px; 
+        width: 130px; 
+        pointer-events: none; 
+        border-right-width: 1px; 
+        border-right-style: solid; 
+        border-right-color: rgb(85, 133, 125);
+    } 
+    
+    @media (max-width: 1820px){ 
+      .app-section-ornament-left-trapeze { 
+        left: auto; 
+        right: calc(100% - 23px);
+      } 
+    }     
+    
+    .app-section-ornament-left-trapeze:after,.app-section-ornament-left-trapeze:before { 
+        content: ""; 
+        position: absolute; 
+        right: -1px; 
+        width: 1px; 
+        height: 185px; 
+        background-color: rgb(85, 133, 125);
+    } 
+    
+    .app-section-ornament-left-trapeze:before { 
+        -webkit-transform: rotate(-45deg); 
+        -moz-transform: rotate(-45deg); 
+        -ms-transform: rotate(-45deg); 
+        -o-transform: rotate(-45deg); 
+        transform: rotate(-45deg); 
+        top: -185px; 
+        -webkit-transform-origin: bottom; 
+        -moz-transform-origin: bottom; 
+        -ms-transform-origin: bottom; 
+        -o-transform-origin: bottom; 
+        transform-origin: center bottom;
+    } 
+    
+    .app-section-ornament-left-trapeze:after { 
+        -webkit-transform: rotate(45deg); 
+        -moz-transform: rotate(45deg); 
+        -ms-transform: rotate(45deg); 
+        -o-transform: rotate(45deg); 
+        transform: rotate(45deg); 
+        bottom: -185px; 
+        -webkit-transform-origin: top; 
+        -moz-transform-origin: top; 
+        -ms-transform-origin: top; 
+        -o-transform-origin: top; 
+        transform-origin: center top;
+    } 
+    
+    .app-section-ornament-right-trapeze { 
+        position: absolute; 
+        right: 0px; 
+        bottom: 180px; 
+        border-left: 1px solid #55857d; 
+        height: 550px; 
+        width: 130px; 
+        pointer-events: none; 
+        border-left-width: 1px; 
+        border-left-style: solid; 
+        border-left-color: rgb(85, 133, 125);
+    } 
+    
+    @media (max-width: 1820px){ 
+      .app-section-ornament-right-trapeze { 
+        right: auto; 
+        left: calc(100% - 23px);
+      } 
+    }     
+    
+    .app-section-ornament-right-trapeze:after,.app-section-ornament-right-trapeze:before { 
+        content: ""; 
+        position: absolute; 
+        left: -1px; 
+        width: 1px; 
+        height: 185px; 
+        background-color: rgb(85, 133, 125);
+    } 
+    
+    .app-section-ornament-right-trapeze:before { 
+        -webkit-transform: rotate(45deg); 
+        -moz-transform: rotate(45deg); 
+        -ms-transform: rotate(45deg); 
+        -o-transform: rotate(45deg); 
+        transform: rotate(45deg); 
+        top: -185px; 
+        -webkit-transform-origin: bottom; 
+        -moz-transform-origin: bottom; 
+        -ms-transform-origin: bottom; 
+        -o-transform-origin: bottom; 
+        transform-origin: center bottom;
+    } 
+    
+    .app-section-ornament-right-trapeze:after { 
+        -webkit-transform: rotate(-45deg); 
+        -moz-transform: rotate(-45deg); 
+        -ms-transform: rotate(-45deg); 
+        -o-transform: rotate(-45deg); 
+        transform: rotate(-45deg); 
+        bottom: -185px; 
+        -webkit-transform-origin: top; 
+        -moz-transform-origin: top; 
+        -ms-transform-origin: top; 
+        -o-transform-origin: top; 
+        transform-origin: center top;
+    } 
+    
+    .container { 
+        width: 100%; 
+        padding-left: 5px; 
+        padding-right: 5px; 
+        margin: 0 auto; 
+        margin-top: 0px; 
+        margin-right: auto; 
+        margin-bottom: 0px; 
+        margin-left: auto;
+    } 
+    
+    
+    @media only screen and (min-width: 1230px){ 
+      .container { 
+        max-width: 1150px;
+      } 
+    }     
+    
+    .app-section-title { 
+        font-size: 55px; 
+        font-weight: 400; 
+        font-family: Andromecha; 
+        text-transform: uppercase; 
+        margin-bottom: 1em; 
+        letter-spacing: 0.04em; 
+        position: relative; 
+        --ornament-top: calc(50% - 20px); 
+        --ornament-between: 85px;
+    } 
+    
+    @media only screen and (max-width: 1489px){ 
+      .app-section-title { 
+        font-size: 40px; 
+        --ornament-top: 15px;
+      } 
+    }     
+    
+    .app-section-title:before { 
+        right: 0px; 
+        width: 520px; 
+        -webkit-transform: skew(-45deg); 
+        -moz-transform: skew(-45deg); 
+        -ms-transform: skew(-45deg); 
+        -o-transform: skew(-45deg); 
+        transform: skew(-45deg); 
+        -webkit-transform-origin: top; 
+        -moz-transform-origin: top; 
+        -ms-transform-origin: top; 
+        -o-transform-origin: top; 
+        transform-origin: center top; 
+        background-image: repeating-linear-gradient(270deg,#fff,#fff 5px,transparent 0,transparent var(--ornament-between));
+    } 
+    
+    .app-section-title:after,.app-section-title:before { 
+        content: ""; 
+        position: absolute; 
+        z-index: 1; 
+        top: var(--ornament-top); 
+        height: 12px;
+    } 
+    
+    @media only screen and (max-width: 1489px){ 
+      .app-section-title:before { 
+        width: 432px;
+      } 
+    }     
+    
+    .app-section-title:after { 
+        left: calc(100% + 100px); 
+        width: 110px; 
+        -webkit-transform: skew(-45deg); 
+        -moz-transform: skew(-45deg); 
+        -ms-transform: skew(-45deg); 
+        -o-transform: skew(-45deg); 
+        transform: skew(-45deg); 
+        background-image: repeating-linear-gradient(90deg, rgb(77, 237, 211), rgb(77, 237, 211) 5px, transparent 0px, transparent 9px, rgb(77, 237, 211) 0px, rgb(77, 237, 211) 14px, transparent 0px, transparent 84px);
+    } 
+    
+    @media (max-width: 1875px){ 
+      .app-section-title:after { 
+        width: 20px;
+      } 
+    }     
+    
+    @media (max-width: 1680px){ 
+      .app-section-title:after { 
+        display: none;
+      } 
+    }     
+    
+    .team-management-section__content { 
+        padding-top: 60px;
+    } 
+    
+    .team-management-section__list { 
+        display: flex; 
+        -webkit-flex-wrap: wrap; 
+        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap; 
+        min-width: 0px; 
+        margin: -20px; 
+        margin-top: -20px; 
+        margin-right: -20px; 
+        margin-bottom: -20px; 
+        margin-left: -20px;
+    } 
+    
+    .team-management-section__item { 
+        position: relative; 
+        width: 100%; 
+        padding: 20px; 
+        -webkit-box-flex: 0; 
+        -webkit-flex: 0 0 50%; 
+        -moz-box-flex: 0; 
+        -ms-flex: 0 0 50%; 
+        flex: 0 0 50%; 
+        max-width: 50%; 
+        padding-top: 20px; 
+        padding-right: 20px; 
+        padding-bottom: 20px; 
+        padding-left: 20px; 
+        flex-grow: 0; 
+        flex-shrink: 0; 
+        flex-basis: 50%;
+    } 
+    
+    .team-management-card { 
+        position: relative; 
+        height: 100%;
+    } 
+    
+    .team-management-card__bg { 
+        position: absolute; 
+        left: 0px; 
+        top: 0px; 
+        background-color: rgb(79, 245, 217); 
+        padding: 1px; 
+        --corner: 16px; 
+        --s1: 40px; 
+        --s2: 56px; 
+        --s3: 18px; 
+        --p1: 250px; 
+        --p2: 90px; 
+        padding-top: 1px; 
+        padding-right: 1px; 
+        padding-bottom: 1px; 
+        padding-left: 1px;
+    } 
+    
+    .team-management-card__bg { 
+        width: 100%; 
+        height: 100%; 
+        --top: 0 var(--s1),var(--s1) 0,var(--p1) 0,calc(var(--p1) + var(--s2)) var(--s2),calc(100% - var(--p2)) var(--s2),calc(100% - var(--p2) + var(--s3)) calc(var(--s2) - var(--s3)),100% calc(var(--s2) - var(--s3)); 
+        --bottom: 100% calc(100% - var(--corner)),calc(100% - var(--corner)) 100%,0 100%; 
+        -webkit-clip-path: polygon(var(--top),var(--bottom)); 
+        clip-path: polygon(var(--top),var(--bottom));
+    } 
+    
+    .team-management-card__bg,.team-management-card__bg:after { 
+        width: 100%; 
+        height: 100%; 
+        --top: 0 var(--s1),var(--s1) 0,var(--p1) 0,calc(var(--p1) + var(--s2)) var(--s2),calc(100% - var(--p2)) var(--s2),calc(100% - var(--p2) + var(--s3)) calc(var(--s2) - var(--s3)),100% calc(var(--s2) - var(--s3)); 
+        --bottom: 100% calc(100% - var(--corner)),calc(100% - var(--corner)) 100%,0 100%; 
+        -webkit-clip-path: polygon(var(--top),var(--bottom)); 
+        clip-path: polygon(var(--top),var(--bottom));
+    } 
+    
+    .team-management-card__bg:after { 
+        content: ""; 
+        display: block; 
+        background-color: rgb(0, 0, 0); 
+        --p1: 248px; 
+        --p2: 88px;
+    } 
+    
+    .team-management-card__content { 
+        position: relative; 
+        display: flex; 
+        padding: 20px; 
+        padding-top: 20px; 
+        padding-right: 20px; 
+        padding-bottom: 20px; 
+        padding-left: 20px;
+    } 
+    
+    .team-avatar { 
+        position: relative;
+    } 
+    
+    .team-management-card__avatar { 
+        width: 200px; 
+        -webkit-flex-shrink: 0; 
+        -ms-flex-negative: 0; 
+        flex-shrink: 0;
+    } 
+    
+    .team-avatar:before { 
+        content: ""; 
+        display: block; 
+        position: absolute; 
+        left: 50%; 
+        top: 70%; 
+        width: 150%; 
+        height: 150%; 
+        -webkit-transform: translate(-50%,-50%); 
+        -moz-transform: translate(-50%,-50%); 
+        -ms-transform: translate(-50%,-50%); 
+        -o-transform: translate(-50%,-50%); 
+        transform: translate(-50%, -50%); 
+        background: repeating-linear-gradient(180deg,#4ff5d9,#4ff5d9 2px,transparent 0,transparent 3px); 
+        -webkit-mask-image: url("https://project-hive.io/_nuxt/img/93b3cc9.png"); 
+        mask-image: url(https://project-hive.io/_nuxt/img/93b3cc9.png); 
+        -webkit-mask-repeat: no-repeat; 
+        mask-repeat: no-repeat; 
+        -webkit-mask-size: contain; 
+        mask-size: contain; 
+        background-image: repeating-linear-gradient(rgb(79, 245, 217), rgb(79, 245, 217) 2px, transparent 0px, transparent 3px); 
+        background-position-x: initial; 
+        background-position-y: initial; 
+        background-size: initial; 
+        background-repeat-x: initial; 
+        background-repeat-y: initial; 
+        background-attachment: initial; 
+        background-origin: initial; 
+        background-clip: initial; 
+        background-color: initial; 
+        -webkit-mask-repeat-x: no-repeat; 
+        -webkit-mask-repeat-y: no-repeat;
+    } 
+    
+    .team-management-card__info { 
+        padding-top: 58px; 
+        padding-left: 20px; 
+        -webkit-box-flex: 1; 
+        -webkit-flex: 1; 
+        -moz-box-flex: 1; 
+        -ms-flex: 1; 
+        flex: 1; 
+        flex-grow: 1; 
+        flex-shrink: 1; 
+        flex-basis: 0%;
+    } 
+    
+    .aspect-ratio-box { 
+        -webkit-box-flex: 1; 
+        -webkit-flex: 1 0 auto; 
+        -moz-box-flex: 1; 
+        -ms-flex: 1 0 auto; 
+        flex: 1 0 auto; 
+        overflow: hidden; 
+        padding-bottom: 100%; 
+        max-width: 100%; 
+        position: relative; 
+        flex-grow: 1; 
+        flex-shrink: 0; 
+        flex-basis: auto; 
+        overflow-x: hidden; 
+        overflow-y: hidden;
+    } 
+    
+    .team-management-card__name { 
+        font-size: 30px; 
+        font-weight: 700; 
+        text-transform: uppercase; 
+        color: rgb(255, 255, 255);
+    } 
+    
+    .team-management-card__position { 
+        font-size: 14px; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        color: rgb(255, 255, 255);
+    } 
+    
+    .team-management-card__social { 
+        position: absolute; 
+        width: 200px; 
+        left: 20px; 
+        top: 240px; 
+        text-align: center;
+    } 
+    
+    .team-management-card__portfolio { 
+        font-size: 14px; 
+        font-weight: 500; 
+        color: rgba(255, 255, 255); 
+        text-transform: uppercase; 
+        margin-top: 15px;
+    } 
+    
+    .aspect-ratio-box__content { 
+        position: absolute; 
+        display: flex; 
+        -webkit-box-align: center; 
+        -webkit-align-items: center; 
+        -moz-box-align: center; 
+        -ms-flex-align: center; 
+        align-items: center; 
+        -webkit-box-pack: center; 
+        -webkit-justify-content: center; 
+        -moz-box-pack: center; 
+        -ms-flex-pack: center; 
+        justify-content: center; 
+        top: 0px; 
+        left: 0px; 
+        width: 100%; 
+        height: 100%; 
+        -webkit-border-radius: inherit; 
+        -moz-border-radius: inherit; 
+        border-radius: inherit; 
+        border-top-left-radius: inherit; 
+        border-top-right-radius: inherit; 
+        border-bottom-right-radius: inherit; 
+        border-bottom-left-radius: inherit;
+    } 
+    
+    a { 
+        background-color: transparent; 
+        -webkit-text-decoration-skip: objects;
+    } 
+    
+    a { 
+        display: inline-block; 
+        text-decoration: none; 
+        cursor: pointer; 
+        color: rgb(85, 153, 255); 
+        font-weight: 500; 
+        text-decoration-line: none; 
+        text-decoration-thickness: initial; 
+        text-decoration-style: initial; 
+        text-decoration-color: initial;
+    } 
+    
+    .team-linkedin-btn { 
+        display: inline-block; 
+        width: 100px; 
+        padding: 5px 10px; 
+        color: rgb(0, 0, 0); 
+        background-color: rgb(79, 245, 217); 
+        -webkit-transition: .2s; 
+        -o-transition: .2s; 
+        -moz-transition: .2s; 
+        transition: .2s; 
+        --notch-lt: 10px; 
+        --notch-rt: 0px; 
+        --notch-rb: 10px; 
+        --notch-lb: 0px; 
+        -webkit-clip-path: polygon(0 var(--notch-lt),var(--notch-lt) 0,-webkit-calc(100% - var(--notch-rt)) 0,100% var(--notch-rt),100% -webkit-calc(100% - var(--notch-rb)),-webkit-calc(100% - var(--notch-rb)) 100%,var(--notch-lb) 100%,0 -webkit-calc(100% - var(--notch-lb))); 
+        clip-path: polygon(0 var(--notch-lt),var(--notch-lt) 0,calc(100% - var(--notch-rt)) 0,100% var(--notch-rt),100% calc(100% - var(--notch-rb)),calc(100% - var(--notch-rb)) 100%,var(--notch-lb) 100%,0 calc(100% - var(--notch-lb))); 
+        padding-top: 5px; 
+        padding-right: 10px; 
+        padding-bottom: 5px; 
+        padding-left: 10px; 
+        transition-duration: 0.2s; 
+        transition-timing-function: ease; 
+        transition-delay: 0s; 
+        transition-property: all;
+    } 
+    
+    a:active,a:hover { 
+        outline-width: 0px;
+    } 
+    
+    a:hover { 
+        text-decoration: underline; 
+        text-decoration-line: underline; 
+        text-decoration-thickness: initial; 
+        text-decoration-style: initial; 
+        text-decoration-color: initial;
+    } 
+    
+    .team-linkedin-btn:hover { 
+        text-decoration: none; 
+        background-color: rgb(255, 255, 255); 
+        text-decoration-line: none; 
+        text-decoration-thickness: initial; 
+        text-decoration-style: initial; 
+        text-decoration-color: initial;
+    } 
+    
+    .team-management-card__portfolio-list { 
+        -webkit-flex-wrap: wrap; 
+        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap; 
+        min-width: 0px; 
+        margin: -5px; 
+        padding-top: 10px; 
+        margin-top: -5px; 
+        margin-right: -5px; 
+        margin-bottom: -5px; 
+        margin-left: -5px;
+    } 
+    
+    .team-management-card__portfolio-list { 
+        display: flex; 
+        -webkit-box-align: center; 
+        -webkit-align-items: center; 
+        -moz-box-align: center; 
+        -ms-flex-align: center; 
+        align-items: center;
+    } 
+    
+    img { 
+        border-style: none; 
+        border-top-style: none; 
+        border-right-style: none; 
+        border-bottom-style: none; 
+        border-left-style: none;
+    } 
+    
+    .team-avatar__img { 
+        width: 80%; 
+        height: 80%;
+        border-radius: 150px;
+        margin-top: 2px; 
+        -o-object-fit: contain; 
+        object-fit: contain;
+    } 
+    
+    .team-management-card__portfolio-item { 
+        display: flex; 
+        -webkit-box-align: center; 
+        -webkit-align-items: center; 
+        -moz-box-align: center; 
+        -ms-flex-align: center; 
+        align-items: center;
+    } 
+    
+    .team-management-card__portfolio-item { 
+        position: relative; 
+        width: 25%; 
+        padding: 5px; 
+        -webkit-box-pack: center; 
+        -webkit-justify-content: center; 
+        -moz-box-pack: center; 
+        -ms-flex-pack: center; 
+        justify-content: center; 
+        height: 60px; 
+        padding-top: 5px; 
+        padding-right: 5px; 
+        padding-bottom: 5px; 
+        padding-left: 5px;
+    } 
+    
+    .team-management-card__portfolio-item-img { 
+        max-width: 100%; 
+        max-height: 100%; 
+        -o-object-fit: contain; 
+        object-fit: contain;
+    } 
+    
+    svg { 
+        vertical-align: middle;
+    } 
+    
+    .team-linkedin-btn__icon { 
+        width: 100%; 
+        height: 100%; 
+        -o-object-fit: contain; 
+        object-fit: contain;
+    } 
+    
+    svg:not(:root) { 
+        overflow: hidden; 
+        overflow-x: hidden; 
+        overflow-y: hidden;
+    } 
+    
+    @media only screen and (max-width: 1229px){ 
+      .app-section { 
+        min-height: 0px; 
+        max-height: none; 
+        padding-top: 130px; 
+        padding-bottom: 80px; 
+        margin-top: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .app-section { 
+        padding-top: 110px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .app-section { 
+        padding-top: 95px; 
+        padding-bottom: 60px;
+      } 
+    }     
+    
+    @media (max-width: 700px){ 
+      .app-section-ornament-left-trapeze { 
+        display: none;
+      } 
+    }     
+    
+    @media (max-width: 700px){ 
+      .app-section-ornament-right-trapeze { 
+        display: none;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .container { 
+        padding-left: 10px; 
+        padding-right: 10px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .app-section-title { 
+        font-size: 30px; 
+        --ornament-top: 10px; 
+        --ornament-between: 65px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .app-section-title { 
+        font-size: 25px; 
+        --ornament-between: 45px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .app-section-title { 
+        font-size: 20px; 
+        margin-bottom: 1.3em;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .app-section-title:before { 
+        width: 220px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .app-section-title:before { 
+        width: 110px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .app-section-title:before { 
+        display: none;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .team-management-section__content { 
+        padding-top: 20px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-section__content { 
+        padding-top: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .team-management-section__item { 
+        -webkit-box-flex: 0; 
+        -webkit-flex: 0 0 100%; 
+        -moz-box-flex: 0; 
+        -ms-flex: 0 0 100%; 
+        flex: 0 0 100%; 
+        max-width: 100%; 
+        flex-grow: 0; 
+        flex-shrink: 0; 
+        flex-basis: 100%;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .team-management-card__bg { 
+        --s2: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__content { 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+        -webkit-flex-direction: column; 
+        -moz-box-orient: vertical; 
+        -moz-box-direction: normal; 
+        -ms-flex-direction: column; 
+        flex-direction: column; 
+        -webkit-box-align: center; 
+        -webkit-align-items: center; 
+        -moz-box-align: center; 
+        -ms-flex-align: center; 
+        align-items: center; 
+        text-align: center;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .team-management-card__avatar { 
+        margin-top: -25px; 
+        width: 180px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .team-management-card__avatar { 
+        margin-top: 0px; 
+        width: 140px; 
+        min-height: 180px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__avatar { 
+        min-height: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .team-management-card__info { 
+        padding-top: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__info { 
+        padding-top: 0px; 
+        padding-left: 0px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 1229px){ 
+      .team-management-card__social { 
+        width: 180px; 
+        left: 20px; 
+        top: 190px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 767px){ 
+      .team-management-card__social { 
+        width: 140px; 
+        left: 20px; 
+        top: 170px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__social { 
+        position: static; 
+        width: 100%; 
+        padding-top: 15px;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__portfolio-list { 
+        -webkit-box-pack: center; 
+        -webkit-justify-content: center; 
+        -moz-box-pack: center; 
+        -ms-flex-pack: center; 
+        justify-content: center;
+      } 
+    }     
+    
+    @media only screen and (max-width: 575px){ 
+      .team-management-card__portfolio-item { 
+        width: 50%;
+      } 
+      .Management_{
+        color: white;
+        font-weight: 800;
+        font-family: "Chakra Petch", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+        font-size: 30px;
+      }
+    }     
+    
+    @media only screen and (max-width: 575px){
+    .app-section-title {
+      font-size: 20px;
+      margin-bottom: 1.3em;
+      text-align: center;
+    }}

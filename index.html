@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBER PUNKS</title>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="Faq.css">
+  <link rel="stylesheet" href="Footer.css">
+  <link rel="stylesheet" href="Team.css">
+  <link rel="stylesheet" href="Leadership.css">
+  <link rel="stylesheet" href="Partners.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="game.css">
+  <link rel="stylesheet" href="cover.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="management.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="popvideo.css">
+</head>
+
+<body>
+
+  <div class="notify"><span id="notifyType" class=""></span></div>
+  <header class="app-header app-header_fixed is-scrolled">
+    <div class="app-header__wrap">
+      <div class="app-header__content">
+        <div class="the-header">
+          <div class="the-header__ornament the-header__ornament-left"></div>
+          <div class="the-header__content"><button id="hideAside" onclick="toglemenu()">
+              <div class="burger burger_spin">
+                <div class="burger-box">
+                  <div class="burger-inner"></div>
+                </div>
+              </div>
+            </button>
+            <nav class="header-nav hidden-md-and-down">
+              <div class="header-nav__item"><a href="/" class="nuxt-link-exact-active nuxt-link-active nav-link"
+                  data-v-31af5969="" aria-current="page">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">Home</span> </div>
+                  </div>
+                </a></div>
+              <div class="header-nav__item"><a href="/#about" class="nav-link" data-v-31af5969="">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">About</span> </div>
+                  </div>
+                </a></div>
+              <div class="header-nav__item"><a href="/#Benefits" class="nav-link" data-v-31af5969="">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">Benefits</span> </div>
+                  </div>
+                </a></div>
+              <div class="header-nav__item"><a href="/#roadmap" class="nav-link" data-v-31af5969="">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">Roadmap</span> </div>
+                  </div>
+                </a></div>
+              <div class="header-nav__item"><a href="/#management" class="nav-link" data-v-31af5969="">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">Team</span> </div>
+                  </div>
+                </a></div>
+
+              <div class="header-nav__item"><a href="/#Faqs" class="nav-link" data-v-31af5969="">
+                  <div class="nav-item" data-v-31af5969="">
+                    <div class="nav-item__content"> <span class="nav-item-name">Faq</span> </div>
+                  </div>
+                </a></div>
+            </nav>
+            <div class="spacer"></div>
+            <div class="the-header__socials hidden-md-and-down">
+              <div class="socials-btn-list popup success">
+                <a href="#" rel="noopener"
+                  class="socials-btn notch-btn notch-btn_theme_first notch-btn_notch_lb social-variable-telegram">
+                  <span class="iconify" data-icon="simple-icons:discord"></span>
+                  <div class="notch-btn__border"></div>
+                </a><a href="https://twitter.com/cyberpunks_lab" target="_blank" rel="noopener"
+                  class="socials-btn notch-btn notch-btn_theme_first notch-btn_notch_lb social-variable-medium">
+                  <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                  <div class="notch-btn__border"></div>
+                </a>
+              </div>
+            </div> <button type="button" class="the-header__btn polygon-btn polygon-btn_theme_first popup success">
+              <div class="polygon-btn__content"><span class="the-header__btn-text the-header__btn-text_play">Play
+                  now</span> </div>
+              <div class="polygon-btn__background"></div>
+              <div class="polygon-btn__ornament"></div>
+            </button>
+          </div>
+          <div class="the-header__ornament the-header__ornament-right hidden-md-and-down"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <aside id="toglemenu"
+    class="app-sidebar app-sidebar_close app-sidebar_fixed app-sidebar_is-mobile app-sidebar_temporary"
+    style="height: 100%; top: 0px; transform: translateX(-100%); width: 250px;" data-booted="true">
+    <div class="app-sidebar__content">
+      <div class="mobile-menu">
+        <div class="mobile-menu__wrap">
+          <div class="mobile-menu__content">
+            <div class="mobile-menu__list">
+              <div class="mobile-menu__item"><a href="/"
+                  class="mobile-menu-item nuxt-link-exact-active nuxt-link-active" aria-current="page">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    Home
+                  </div>
+                  <!---->
+                </a></div>
+              <div class="mobile-menu__item"><a href="/#about" class="mobile-menu-item">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    ABOUT
+                  </div>
+                  <!---->
+                </a></div>
+              <div class="mobile-menu__item"><a href="/#Benefits" class="mobile-menu-item">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    BENEFITS
+                  </div>
+                  <!---->
+                </a></div>
+
+              <div class="mobile-menu__item"><a href="/#management" class="mobile-menu-item">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    TEAM
+                  </div>
+                  <!---->
+                </a></div>
+
+              <div class="mobile-menu__item"><a href="/#roadmap" class="mobile-menu-item">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    Roadmap
+                  </div>
+                  <!---->
+                </a></div>
+              <div class="mobile-menu__item"><a href="/#Faqs" class="mobile-menu-item">
+                  <div class="mobile-menu-item__icon"><svg width="10px" height="10px" xmlns="http://www.w3.org/2000/svg"
+                      class="icon sprite-shape">
+                      <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"
+                        xlink:href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon"></use>
+                    </svg></div>
+                  <div class="mobile-menu-item__name">
+                    FAQS
+                  </div>
+                  <!---->
+                </a></div>
+            </div>
+            <div class="app-line-hr"></div>
+            <div class="mobile-menu__footer">
+              <div class="socials-btn-list"><a href="#" target="_blank" rel="noopener"
+                  class="socials-btn notch-btn notch-btn_theme_first notch-btn_notch_lb social-variable-discord success">
+                  <span class="iconify" data-icon="simple-icons:discord"></span>
+                  <div class="notch-btn__border"></div>
+                </a><a href="https://twitter.com/cyberpunks_lab" target="_blank" rel="noopener"
+                  class="socials-btn notch-btn notch-btn_theme_first notch-btn_notch_lb social-variable-twitter">
+                  <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                  <div class="notch-btn__border"></div>
+                </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="app-sidebar__border"></div>
+  </aside>
+
+  <video autoplay muted loop id="Video">
+    <source src="/vedio/backvideo.mp4" type="video/mp4">
+  </video>
+  <div class="blurback">
+    <div class="contobanner">
+      <div class="main-screen-section__content">
+        <div class="main-screen-section__logo">
+          <img src="/images/cplogo.png" class="main-screen-section__logo-img snip-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contibanner" id="about">
+    <div class="container">
+      <h2 class="app-section-title">
+        <div class="Management_">
+          ABOUT
+        </div>
+      </h2>
+      <div class="about-section__content">
+        <div class="about-section-description">
+          <div class="app-text-title mb-4 pr-3">
+            CyberPunks is world's first blockchain-powered cyberpunk-themed social and
+            gaming metaverse, as well as the first slash to earn arena fight game.
+          </div>
+          <p class="app-text-paragraph mb-4">
+            You can battle like a ninja god in this fast-paced lightning-fast action cyberpunk-style
+            virtual world. Each in-game character would be equipped with two high-tech swords
+            to fight for game missions or among each other in team mode
+          </p>
+          <p class="app-text-paragraph mb-4">
+            CyberPunks Genesis NFT is a collection of 10,000 hand-drawn cyberpunk-style art
+            on the Ethereum blockchain. It would be the entry ticket to access the cyberpunk  
+            gaming metaverse to enjoy a unique and cool first-person multi-player science-fiction
+            game experience
+          </p>
+
+          <div class="about-section-description__ornament">
+          </div>
+        </div>
+
+        <div class="about-section-teaser">
+          <div class="about-section-teaser__content">
+            <div class="about-section-teaser__title">
+              Gameplay teaser
+            </div>
+            <div class="about-section-teaser__video">
+              <div class="about-section-teaser__video-content">
+                <img src="/images/abc.png" class="about-section-teaser__video-img snip-img" onclick="lightbox_open()">
+                <div class="about-section-teaser__video-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    class="about-section-teaser__video-btn-shape icon sprite-shape snip-svg">
+                    <use href="/_nuxt/ec79a40e0658afed948aecab0657af60.svg#i-hexagon">
+                    </use>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    class="about-section-teaser__video-btn-icon icon sprite-icons snip-svg">
+                    <use href="/_nuxt/ea50ce47add56f125e57c0da531aef9b.svg#i-arrow-right">
+                    </use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+
+
+            <button type="button" class="about-section-teaser__btn notch-btn notch-btn_theme_second" id="open-btn">
+              <div class="notch-btn__content" id="open-btn">
+                <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg"
+                  class="about-section-teaser__btn-icon icon sprite-icons snip-svg">
+                  </use>
+                </svg>
+                <span id="open-btn">
+                  Watch teaser
+                </span>
+              </div>
+              <div class="notch-btn__border">
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="modal-background">
+    <div id="modal">
+      <span id="close-btn">&times;</span>
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+        src="https://player.vimeo.com/video/695948931?h=15ad546164&title=0&byline=0&portrait=0"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+      </div>
+    </div>
+  </div> 
+
+
+  <div class="contiibanner" id="Benefits">
+    <div class="container">
+      <h2 class="app-section-title">
+        <div class="Management_">
+          BENEFITS
+        </div>
+      </h2>
+      <div class="gameplay-section__content">
+        <div class="gameplay-section__item">
+          <div class="gameplay-section-card left">
+
+            <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                Benefits for CyberPunks Genesis NFT holders
+              </div>
+              <div class="gameplay-section-card__text">
+                1. Hold to receive Arena Land NFT airdrops in early Q2. Arena can be rented
+                out, and the owner can get 30% of the tokens revenue from all team matches
+                held on the land, with the rest of the revenue going to the winning side
+              </div>
+              <br>
+              <div class="gameplay-section-card__text">
+                2. Hold to receive $CYBER in-game token airdrops in early Q2 (with a
+                circulating supply of 1 Billion, $CYBER is the only ERC20 in-game currency
+                developed for the metaverse of CyberPunks)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gameplay-section__item">
+          <div class="gameplay-section-card center">
+
+            <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                Benefits for CyberPunks Genesis NFT holders
+              </div>
+              <div class="gameplay-section-card__text">
+                3. NFT holders will have first access to the game demo, which will be released
+                in Q2 around the time of the $CYBER' IDO event.
+              </div>
+              <br>
+              <div class="gameplay-section-card__text">
+                4. Private Discord channel and fight club meetup invitations: All holders will also
+                be granted access to a private CyberPunks membership channel and invited
+                to exclusive offline club parties.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gameplay-section__item as">
+          <div class="gameplay-section-card right ab">
+            <div class="gameplay-section-card__icon">
+              <div class="aspect-ratio-box" style="padding-bottom:67.6056338028169%">
+                <div class="aspect-ratio-box__content">
+                  <!-- <img src="/images/f01 (1).jpg" -->
+                  <!-- class="gameplay-section-card__icon-img snip-img"> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                Large scale PVP
+              </div>
+              <div class="gameplay-section-card__text">
+                Team up with friends and grow through ranks on Arena or join a clan to&nbsp;capture&nbsp;Cells
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br>
+  <br>
+  <section id="management" class="app-section team-management-section asad">
+    <div class="app-section-ornament-left-trapeze" id="team">
+    </div>
+    <div class="app-section-ornament-right-trapeze">
+    </div>
+    <div class="container pad20">
+      <h2 class="app-section-title">
+        <div class="Management_">
+          OUR TEAM
+        </div>
+      </h2>
+      <div class="team-management-section__content">
+        <div class="team-management-section__list">
+          <div class="team-management-section__item">
+            <div class="team-management-card">
+              <div class="team-management-card__bg">
+              </div>
+              <div class="team-management-card__content">
+                <div class="team-avatar team-management-card__avatar">
+                  <div class="aspect-ratio-box">
+                    <div class="aspect-ratio-box__content">
+                      <img src="/images/f04.jpg" class="team-avatar__img snip-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="team-management-card__info">
+                  <div class="team-management-card__name">
+                    0XMetalabs
+                  </div>
+                  <div class="team-management-card__position">
+                    Project lead
+                  </div>
+                  <div class="team-management-card__portfolio">
+                    <span>
+                      Former product creative director at a Fortune 500 company.
+                      Rich experience within the Defi space and skilled in project
+                      development and operations. WEB3 veteran and
+                      AAA game fans.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="team-management-section__item">
+            <div class="team-management-card">
+              <div class="team-management-card__bg">
+              </div>
+              <div class="team-management-card__content">
+                <div class="team-avatar team-management-card__avatar">
+                  <div class="aspect-ratio-box">
+                    <div class="aspect-ratio-box__content">
+                      <img src="/images/f04.jpg" class="team-avatar__img snip-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="team-management-card__info">
+                  <div class="team-management-card__name">
+                    0XSHOGUNTOKYO
+                  </div>
+                  <div class="team-management-card__position">
+                    Marketing and community lead
+                  </div>
+                  <div class="team-management-card__portfolio">
+                    <span>
+                      Led marketing teams in Fintech startups and 7-digit marketing agencies during a long
+                      career, responsible for collabs outreach and business development, having an
+                      extensive network in the gaming industry and crypto guilds.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="team-management-section__item">
+            <div class="team-management-card">
+              <div class="team-management-card__bg">
+              </div>
+              <div class="team-management-card__content">
+                <div class="team-avatar team-management-card__avatar">
+                  <div class="aspect-ratio-box">
+                    <div class="aspect-ratio-box__content">
+                      <img src="/images/f04.jpg" class="team-avatar__img snip-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="team-management-card__info">
+                  <div class="team-management-card__name">
+                    0XSamurai
+                  </div>
+                  <div class="team-management-card__position">
+                    Cyberpunk artist
+                  </div>
+                  <div class="team-management-card__portfolio">
+                    <span>
+                      5+ experience in Sci-fi novels, films, games and art concept designs, also skilled at
+                      game assets making.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="team-management-section__item">
+            <div class="team-management-card">
+              <div class="team-management-card__bg">
+              </div>
+              <div class="team-management-card__content">
+                <div class="team-avatar team-management-card__avatar">
+                  <div class="aspect-ratio-box">
+                    <div class="aspect-ratio-box__content">
+                      <img src="/images/f04.jpg" class="team-avatar__img snip-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="team-management-card__info">
+                  <div class="team-management-card__name">
+                    0XWhiz
+                  </div>
+                  <div class="team-management-card__position">
+                    Website and blockchain lead
+                  </div>
+                  <div class="team-management-card__portfolio">
+                    <span>
+                      A low-profile full-stack white hat. Rich experience in frontend, backend, UI/UX, C++,
+                      Python programming and smart contract.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <div class="team-management-section__item">
+            <div class="team-management-card">
+              <div class="team-management-card__bg">
+              </div>
+              <div class="team-management-card__content">
+                <div class="team-avatar team-management-card__avatar">
+                  <div class="aspect-ratio-box">
+                    <div class="aspect-ratio-box__content">
+                      <img src="/images/f04.jpg" class="team-avatar__img snip-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="team-management-card__info">
+                  <div class="team-management-card__name">
+                    0XMaga
+                  </div>
+                  <div class="team-management-card__position">
+                    Game lead
+                  </div>
+                  <div class="team-management-card__portfolio">
+                    <span>
+                      Former PM at Riot Games and over a decade of experience in indie game
+                      development, having rich experience in Unity, CryEngine and Unreal Engine 5
+                      environment.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contiibanner" id="roadmap">
+    <div class="container">
+      <h2 class="app-section-title">
+        <div class="Management_">
+          Roadmap
+        </div>
+      </h2>
+      <div class="gameplay-section__content">
+        <div class="gameplay-section__item">
+          <div class="gameplay-section-card left">
+            <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                2021-2022 Q1
+              </div>
+              <div class="gameplay-section-card__text">
+                -Team assembly
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -PVP Game development
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Genesis NFT design
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Website launch
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Twitter and Discord
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Gameplay teaser
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Gaming metaverse integration with blockchain
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="gameplay-section__item">
+          <div class="gameplay-section-card center">
+
+            <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                2022 Q2
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -CyberPunks Genesis NFT minting event and reveal
+              </div>
+
+
+              <div class="gameplay-section-card__text">
+                -Arena Land NFT airdrop, minting event and reveal
+              </div>
+
+
+              <div class="gameplay-section-card__text">
+                -Interoperability with Sandbox and Apeverse
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Certik audit $CYBER contract and official whitepaper release
+              </div>
+              <div class="gameplay-section-card__text">
+                -$CYBER Initial Dex Offering on launchpads like Vlaunch
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Add $CYBER liquidity pool on uniswap and airdrop to early NFT holders
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Game alpha slash-to-earn mode test and MVP playable prototype on UE5
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="gameplay-section__item">
+          <div class="gameplay-section-card center">
+
+            <div class="gameplay-section-card__content">
+              <div class="gameplay-section-card__title">
+                2022 Q3-Q4
+              </div>
+              <div class="gameplay-section-card__text">
+                -Launch NFT marketplace
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -CEX listing
+              </div>
+
+
+              <div class="gameplay-section-card__text">
+                -Launch chat system and ENS integration
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -VR support and add more game modes
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Complete PFP character and LAND NFT system in metaverse
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Beta test of mainnet
+              </div>
+              <div class="gameplay-section-card__text">
+                -Public release on PC, Android and IOS
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Cross-chain bridge on Polygon and Solana
+              </div>
+
+              <div class="gameplay-section-card__text">
+                -Scholarship development, language localization and gaming tournaments
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="faqcont" id="Faqs">
+    <div class="container pad20">
+      <h2 class="app-section-title">
+        <div class="Management_">
+          FAQS
+        </div>
+      </h2>
+    </div>
+
+
+    <div class="container">
+      <div class="wrapper">
+        <button class="toggle">
+          What is an NFT?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>A non-fungible token (NFT) is a non-interchangeable unit of data stored on a
+            blockchain, a form of digital ledger, that can be sold and traded.Types of NFT data
+            units may be associated with digital files such as photos, videos, and audio. Because
+            each token is uniquely identifiable, NFTs differ from blockchain cryptocurrencies,
+            such as Bitcoin.</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <button class="toggle">
+          How can I buy an NFT?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>To buy the NFT, you'll need a crypto wallet such as Metamask, where you can
+            connect through our website and make the purchase.</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <button class="toggle">
+          What is the mint price?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>To be announced closer to the mint day</p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <button class="toggle">
+          When will the mint be?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>To be revealed on our social media soon</p>
+        </div>
+      </div>
+
+
+      <div class="wrapper">
+        <button class="toggle">
+          How long will the Whitelist sale be open?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>Time is under review, 2 mints per wallet and hardware wallet is supported</p>
+        </div>
+      </div>
+
+
+      <div class="wrapper">
+        <button class="toggle">
+          How will the public sale be conducted?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>TBA</p>
+        </div>
+      </div>
+
+
+      <div class="wrapper">
+        <button class="toggle">
+          When will the reveal be?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>One week after the mint day</p>
+        </div>
+      </div>
+
+
+
+      <div class="wrapper">
+        <button class="toggle">
+          When can I get the $CYBER Token airdrop?
+          <i class="fas fa-plus icon"></i>
+        </button>
+        <div class="content">
+          <p>The $CYBER utility token is the main in-game currency of the CyberPunks
+            Meterverse ecosystem and would drop to Genesis NFT holders on TGE after the IDO
+            event.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <br>
+  <div class="the-footer">
+    <div class="container the-footer__content">
+      <br>
+      <div class="the-footer__row">
+        <div class="the-footer__logo">
+          <div class="aspect-ratio-box" style="padding-bottom:15.068493150684931%">
+            <div class="aspect-ratio-box__content">
+              <div>
+                <h2>CONTACT</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spacer">
+        </div>
+        <div class="socials-btn-list the-footer__socials dark">
+          <a href="#" rel="noopener"
+            class="socials-btn notch-btn notch-btn_theme_first social-variable-discord success">
+            <div class="notch-btn__content">
+              <span class="iconify" data-icon="simple-icons:discord"></span>
+            </div>
+            <div class="notch-btn__border">
+            </div>
+          </a>
+          <a href="https://twitter.com/cyberpunks_lab" rel="noopener"
+            class="socials-btn notch-btn notch-btn_theme_first social-variable-twitter">
+            <div class="notch-btn__content">
+              <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+            </div>
+            <div class="notch-btn__border">
+            </div>
+          </a>
+        </div>
+        <button type="button" class="the-footer__btn polygon-btn polygon-btn_theme_second success">
+          <div class="polygon-btn__content">
+            <span class="the-footer__btn-text the-footer__btn-text_play">
+              Play now
+            </span>
+          </div>
+          <div class="polygon-btn__background">
+          </div>
+          <div class="polygon-btn__ornament">
+          </div>
+        </button>
+        <div class="w-100">
+        </div>
+        <div class="the-footer__text">
+          <b>
+            Email:
+          </b>
+          <b>
+            ask@cyberpunks.ninja
+          </b>
+          <br>
+        </div>
+      </div>
+      <div class="the-footer__ornament">
+      </div>
+    </div>
+    <div class="the-footer__bottom">
+      <div class="container">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--Script-->
+  <script src="Faq.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="popup.js"></script>
+  <!-- <link rel="stylesheet" href="Roadmap.css"> -->
+  <!-- <link rel="stylesheet" href="Clanwar.css"> -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="header.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="popvideo.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+</body>
+
+</html>
